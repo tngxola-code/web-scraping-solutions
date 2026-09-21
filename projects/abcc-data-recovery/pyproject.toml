@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abcc-recovery"
+version = "1.0.0"
+description = "Recover the historical ABCC Agreement Clauses dataset from archived sources and deliver validated Excel/CSV output."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "pyyaml",
+    "openpyxl",
+    "pdfplumber",
+]
+
+[project.optional-dependencies]
+xls = ["xlrd"]
+pdf-fixtures = ["reportlab"]
+ocr = ["pytesseract"]
+test = ["pytest", "xlrd", "reportlab"]
+
+[project.scripts]
+abcc-recovery = "abcc_recovery.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

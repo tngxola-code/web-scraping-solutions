@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Data directories: keep structure, ignore contents (recovered/generated artefacts)
+data/source/*
+!data/source/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/clean/*
+!data/clean/.gitkeep
+data/output/*
+!data/output/.gitkeep
+
+# Reports: keep structure, ignore generated JSON reports
+reports/*
+!reports/.gitkeep

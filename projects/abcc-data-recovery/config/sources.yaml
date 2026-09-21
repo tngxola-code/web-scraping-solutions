@@ -1,0 +1,8 @@
+sources:
+  - name: agreement_clauses_pdf
+    type: pdf
+    url: https://www.abcc.gov.au/sites/default/files/abcc_agreement_clauses_spreadsheet.pdf
+
+  - name: agreement_clauses_page
+    type: webpage
+    url: https://www.abcc.gov.au/resources/agreement-clauses

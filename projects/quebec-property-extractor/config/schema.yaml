@@ -1,0 +1,34 @@
+fields:
+  - name: roll_number
+    type: string
+    required: true
+  - name: matricule
+    type: string
+    required: false
+  - name: address
+    type: string
+    required: true
+  - name: municipality
+    type: string
+    required: true
+  - name: postal_code
+    type: string
+    required: false
+  - name: property_category
+    type: string
+    required: false
+  - name: land_value
+    type: decimal
+    required: false
+  - name: building_value
+    type: decimal
+    required: false
+  - name: total_assessment
+    type: decimal
+    required: false
+  - name: assessment_year
+    type: integer
+    required: false
+  - name: land_area
+    type: decimal
+    required: false

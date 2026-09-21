@@ -1,0 +1,24 @@
+project:
+  municipality_name: "Québec"
+  source_year: 2026
+
+source:
+  dataset: "Rôle d'évaluation foncière du Québec"
+  municipality_index_url: "https://donneesouvertes.affmunqc.net/role/indexRole2026.csv"
+  timeout_seconds: 60
+  max_retries: 3
+
+parser:
+  mapping_file: "config/mappings/role_2026.yaml"
+  validate_xsd: false
+  detect_unknown_tags: true
+
+output:
+  directory: "data/output"
+  excel: true
+  csv: true
+  manifest: true
+
+logging:
+  level: "INFO"
+  # file: "logs/app.log"   # optional
