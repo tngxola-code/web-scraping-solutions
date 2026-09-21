@@ -1,14 +1,27 @@
-# Verified Web Data
+# Web Scraping Solutions
 
-**Verified web data for teams that can't afford to be wrong.**
+**Data for teams that can't afford to be wrong.**
 Every dataset is delivered with a data-quality report, proof of where each record came
-from, and a codebase the client owns.
+from, and a codebase you own.
 
-I'm Themba Ngxola, a data extraction and automation engineer with 15+ years in quality
-engineering and systems delivery for banks and financial institutions (FNB, ABSA,
-Standard Bank, Sanlam). This repository shows how I work and what I have built.
+## What you get
 
-<!-- TODO: add Upwork profile link here -->
+- **Clean data in the format you use:** Excel, CSV, Google Sheets, a database or an API
+- **A data-quality report:** row counts, completeness per field, validation rules passed
+  or failed, and a sample audit
+- **Proof of source:** every record traces back to the page or file it came from, with
+  timestamps and file hashes
+- **A codebase you own:** tests, Docker, an optional schedule and a runbook; it runs
+  without me
+- **Optional monitoring:** scheduled runs, alerts on new or changed data, and fixes when
+  a site changes
+
+## The standard behind it
+
+15+ years delivering systems for banks and financial institutions, including Vision Bank
+(Saudi Arabia), FNB, ABSA, Standard Bank and Sanlam Glacier (South Africa), where data
+has to be correct, traceable and audit-ready. The same standard applies to every
+dataset in this repository.
 
 ## Projects
 
@@ -30,7 +43,7 @@ Standard Bank, Sanlam). This repository shows how I work and what I have built.
 More in [docs/how-i-work.md](docs/how-i-work.md) and
 [docs/responsible-data-collection.md](docs/responsible-data-collection.md).
 
-## What I build
+## What I can build for you
 
 - Catalogue and listing extraction with pagination, detail pages and images
 - Lead and directory data from search results or lists of websites
@@ -57,6 +70,11 @@ pytest
 ```
 
 CI runs both test suites on every push (`.github/workflows/ci.yml`).
+
+## Contact
+
+Themba Ngxola · [GitHub](https://github.com/tngxola-code)
+<!-- TODO: add Upwork profile link here -->
 
 ## Rights
 
